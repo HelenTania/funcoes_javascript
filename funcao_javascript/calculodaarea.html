@@ -1,0 +1,44 @@
+<DOCTYPE html>
+
+<html lang pt-br>
+
+
+<head>
+   
+   <title>Calculando area de terreno</title>
+   
+   
+     <script>
+	 
+	 // função nominada
+	   function calcularAreaTerreno(largura,comprimento){
+	   
+	    var area = largura*comprimento
+		return area
+	  
+	   
+	   } 
+	   //flexibilidade da passagem de parâmetro do javascript
+	   
+	   document.write(calcularAreaTerreno(7,7)+'<br>')
+	   document.write(calcularAreaTerreno(7)+'<br>')
+	   document.write(calcularAreaTerreno()+'<br>')
+	 
+	 // funçaõ anônima nao é necessario ser declarada
+	 
+	    var area = function(largura,comprimento,altura){
+		var area = largura*comprimento
+		return area
+	 }
+	    document.write(area(9,22)+'<br>')
+	 </script>
+
+
+</head>
+   
+   <body>
+   
+   </body>
+   
+   
+</html>
